@@ -1,3 +1,7 @@
+---
+discordChannel: "1082506883824369764"
+---
+
 # Factions
 Go over the concepts of Factions
 

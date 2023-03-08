@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { TramRounded } = require('@mui/icons-material');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -93,6 +94,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false
+        }
+      },
       announcementBar: {
         id: 'announcement',
         content: 

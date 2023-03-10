@@ -146,6 +146,30 @@ const config = {
             label: 'Blog', 
             position: 'left'
           },
+          {
+            to: '/events',
+            label: "Event Calendar",
+            position: 'left'
+          },
+          {
+            type: 'dropdown',
+            label: 'Tools',
+            position: 'left',
+            items: [
+              {
+                label: "Crew Combinations",
+                to: "/combo"
+              },
+              {
+                label: "Crewing Tool",
+                to: "/crewing"
+              },
+              {
+                label: "Galaxy Map",
+                to: "/map"
+              },
+            ]
+          }
         ],
       },
       footer: {
